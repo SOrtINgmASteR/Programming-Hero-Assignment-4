@@ -1,4 +1,4 @@
-//Github Repository
+//Github Repository: https://github.com/SOrtINgmASteR/Programming-Hero-Assignment-4
 
 //Problem 01 - Train TT's Fine Calculator 
 function totalFine( fare ) { 
@@ -84,43 +84,3 @@ function resultReport( marks ) {
     }
     return {finalScore: averageNumber, pass: pass, fail: fail};
 }
-
-
-// console.log(totalFine(200));
-// console.log(totalFine(0));
-// console.log(totalFine(50));
-// console.log(totalFine(552));
-// console.log(totalFine(-35));
-// console.log(totalFine("65"));
-// console.log(totalFine("Gorib tai ticket katinai"));
-
-
-// console.log(onlyCharacter("  h e llo wor   ld"));
-// console.log(onlyCharacter("Cy   bar- At  tac k  "));
-// console.log(onlyCharacter(" ha ck m e 1 @ru.c  n  "));
-// console.log(onlyCharacter("Serv er : : Do wn"));
-// console.log(onlyCharacter(["hack", "me"]));
-// console.log(onlyCharacter(true));
-
-
-// console.log(bestTeam({name: "Brazil", foul: 5, cardY: 1, cardR: 0}, {name: "Argentina", foul: 7, cardY: 0, cardR: 0}));
-// console.log(bestTeam({name: "Germany", foul: 12, cardY: 0, cardR: 0}, {name: "Sweden", foul: 7, cardY: 4, cardR: 1}));
-// console.log(bestTeam({name: "Germany", foul: 10, cardY: 1, cardR: 1}, {name: "France", foul: 10, cardY: 2, cardR: 1}));
-// console.log(bestTeam({ name: "Germany", foul: 10, cardY: 1, cardR: 1 },"France"));
-// console.log(bestTeam('5', [6, 8, 9]));
-
-
-// console.log(isSame([1, 2, 3], [1, 2, 3]));
-// console.log(isSame([34, 5, 7, 9], [34, 5, 7]));
-// console.log(isSame([1, undefined , 3] , [1,null ,3]));
-// console.log(isSame([1, 4, 5], [1, 4, 5]));
-// console.log(isSame([1, "4", 4] ,[1, 4, 4]));
-// console.log(isSame([2, 5, 6], 256));
-// console.log(isSame({data: [2, 5, 6]} , [2, 5, 6]));
-
-
-// console.log(resultReport([]));
-// console.log(resultReport([98, 87, 67, 91, 92, 33, 87]));
-// console.log(resultReport([99, 87, 67, 12 ,87]));
-// console.log(resultReport([99]));
-// console.log(resultReport(100));
